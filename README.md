@@ -86,8 +86,4 @@ Testing
   - Animals have Healthy status
   - Purchased in last 6 months from today
 
-Author
-Sushil Jawanjal
-MCA Student
-MERN Stack Developer
-Full-Stack Web Developer
+
