@@ -68,13 +68,33 @@ Installation
   npm install
 
 
+Usage
+
+1.Create an Animal
+<img width="1394" height="933" alt="Screenshot 2025-11-11 131641" src="https://github.com/user-attachments/assets/904b65d4-3fee-4c41-8ce7-5cd9b3e301fc" />
+
+2.Get All Animals
+<img width="1390" height="818" alt="Screenshot 2025-11-11 143545" src="https://github.com/user-attachments/assets/69a5f72d-36ae-4ffb-a9dc-aaf27b1a3147" />
+
+3.Get Single Animal
+<img width="1376" height="942" alt="image" src="https://github.com/user-attachments/assets/804d5d96-0766-4b7a-bf6a-5f331ee0dfad" />
+
+4.Update an Animal
+<img width="1371" height="921" alt="image" src="https://github.com/user-attachments/assets/c66e7fed-44ae-4d3f-9081-9ff63732bc6d" />
+
+5.Delete an Animal
+<img width="1378" height="874" alt="image" src="https://github.com/user-attachments/assets/73818922-b35f-47d1-b8a6-084d765a9dfa" />
+
+6.Fetch Healthy Animals Purchased in Last 6 Months
+<img width="1346" height="928" alt="image" src="https://github.com/user-attachments/assets/579921df-01ca-4ce7-9929-f53dbdbef93b" />
+
+
 Validation Rules
 - Required fields: name, species, age, healthStatus, purchaseDate, farmLocation
 - Species must be one of: cow, buffalo, goat
 - Health status must be one of: Healthy, Sick, Recovering
 - Age must be between 0 and 100
 - Purchase date must be a valid ISO date
-
 
 
 Testing
