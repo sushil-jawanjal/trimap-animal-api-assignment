@@ -60,13 +60,12 @@ Technology Stack
 
 Installation
 1. Clone the repository:
-
-git clone <repository-url>  
-cd trimap-animal-api-assignment
+ git clone <repository-url>  
+ cd trimap-animal-api-assignment
 
 
 2. Install dependencies:
-npm install
+  npm install
 
 
 Validation Rules
