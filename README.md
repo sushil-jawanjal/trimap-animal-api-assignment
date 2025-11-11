@@ -50,7 +50,6 @@ Features
 - Filter healthy animals purchased in the last 6 months
 
 
-
 Technology Stack
 - Node.js
 - Express.js
@@ -59,86 +58,16 @@ Technology Stack
 - Postman for API testing
 
 
-
-
 Installation
-
 1. Clone the repository:
 
 git clone <repository-url>  
 cd trimap-animal-api-assignment
 
-2. Install dependencies:
 
+2. Install dependencies:
 npm install
 
-3. Create a .env file in the root directory:
-
-MONGO_URI=<your_mongodb_connection_string>  
-PORT=4000
-
-4. Start the server:
-
-npm start
-
-Or with nodemon:
-
-nodemon server.js
-
-The server will run at:
-
-http://localhost:3000
-
-
-Usage
-1. Create an Animal
-
-POST http://localhost:4000/api/animals/create  
-Content-Type: application/json
-
-{  
- "name": "Nellie",  
- "species": "cow",  
- "age": 4,  
- "healthStatus": "Healthy",  
- "purchaseDate": "2025-07-15T00:00:00.000Z",  
- "farmLocation": "Pune"  
-}
-
-2. Get All Animals
-
-GET http://localhost:4000/api/animals/read
-
-3. Get Single Animal
-
-GET http://localhost:4000/api/animals/read/<id>
-
-4. Update an Animal
-
-PATCH http://localhost:4000/api/animals/update/<id>
-
-Body example:
-
-{  
- "farmLocation": "Nagpur",  
- "healthStatus": "Recovering"  
-}
-
-5. Delete an Animal
-
-DELETE http://localhost:4000/api/animals/delete/<id>
-
-6. Fetch Healthy Animals Purchased in Last 6 Months
-
-GET http://localhost:4000/api/animals/healthy/species
-
-Sample Data
-
-[
-{ "name": "Murrah", "species": "buffalo", "age": 6, "healthStatus": "Healthy", "purchaseDate": "2024-11-20T00:00:00.000Z", "farmLocation": "Nagpur" },
-{ "name": "Nellie", "species": "cow", "age": 4, "healthStatus": "Healthy", "purchaseDate": "2025-07-15T00:00:00.000Z", "farmLocation": "Pune" },
-{ "name": "Eetal", "species": "goat", "age": 2, "healthStatus": "Healthy", "purchaseDate": "2025-08-05T00:00:00.000Z", "farmLocation": "Sangli" }
-]
 
 Validation Rules
 - Required fields: name, species, age, healthStatus, purchaseDate, farmLocation
