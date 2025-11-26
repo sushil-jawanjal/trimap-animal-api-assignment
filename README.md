@@ -55,7 +55,7 @@ Each animal profile includes:
 - Postman for API testing
 
 
-4. Installation
+4. Installation<br>
  a) Clone the repository:
  git clone <repository-url>  
  cd trimap-animal-api-assignment
