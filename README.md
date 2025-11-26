@@ -96,7 +96,7 @@ b) Install dependencies:
 
 
 7. Testing
-8. 
+
 - Use Postman or any API client to test endpoints
 - Make sure MongoDB is running
 - For /healthy/species, ensure:
