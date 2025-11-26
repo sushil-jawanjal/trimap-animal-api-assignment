@@ -56,12 +56,12 @@ Each animal profile includes:
 
 
 4. Installation
-1. Clone the repository:
+ a) Clone the repository:
  git clone <repository-url>  
  cd trimap-animal-api-assignment
 
 
-2. Install dependencies:
+b) Install dependencies:
   npm install
 
 
