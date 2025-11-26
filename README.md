@@ -10,16 +10,13 @@ Table of Contents
 1. Project Overview
 2. Features
 3. Technology Stack
-4. API Endpoints
-5. Installation
-6. Usage
-7. Sample Data
-8. Validation Rules
-9. Testing
-10. Author
+4. Installation
+5. Sample Data
+6. Validation Rules
+7. Testing
 
 
-Project Overview
+1. Project Overview
 
 TriMap Solutions wanted a system to manage farm animals for trade and health management.
 This API provides a backend solution to:
@@ -41,7 +38,7 @@ Each animal profile includes:
 
 
 
-Features
+2. Features
 - Create new animal profile
 - Read all animal profiles
 - Read single animal profile by ID
@@ -50,7 +47,7 @@ Features
 - Filter healthy animals purchased in the last 6 months
 
 
-Technology Stack
+3. Technology Stack
 - Node.js
 - Express.js
 - MongoDB
@@ -58,7 +55,7 @@ Technology Stack
 - Postman for API testing
 
 
-Installation
+4. Installation
 1. Clone the repository:
  git clone <repository-url>  
  cd trimap-animal-api-assignment
@@ -68,7 +65,7 @@ Installation
   npm install
 
 
-Usage
+5. Sample Data
 
 1.Create an Animal
 <img width="1394" height="933" alt="Screenshot 2025-11-11 131641" src="https://github.com/user-attachments/assets/904b65d4-3fee-4c41-8ce7-5cd9b3e301fc" />
@@ -89,7 +86,8 @@ Usage
 <img width="1346" height="928" alt="image" src="https://github.com/user-attachments/assets/579921df-01ca-4ce7-9929-f53dbdbef93b" />
 
 
-Validation Rules
+6. Validation Rules
+
 - Required fields: name, species, age, healthStatus, purchaseDate, farmLocation
 - Species must be one of: cow, buffalo, goat
 - Health status must be one of: Healthy, Sick, Recovering
@@ -97,7 +95,8 @@ Validation Rules
 - Purchase date must be a valid ISO date
 
 
-Testing
+7. Testing
+8. 
 - Use Postman or any API client to test endpoints
 - Make sure MongoDB is running
 - For /healthy/species, ensure:
